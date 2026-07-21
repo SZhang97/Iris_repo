@@ -27,3 +27,12 @@ iris <- iris
 print(iris)
 
 ```
+
+## Task 2: Save the data 
+
+```{r iris2, echo=FALSE}
+
+write.csv(iris, "iris.csv")
+
+
+```
