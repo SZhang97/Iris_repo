@@ -1,0 +1,29 @@
+---
+title: "Workshop"
+author: "Shunqi Zhang"
+date: "2026-07-21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Task 0; Set Working Directory 
+
+```{r iris0, echo= F}
+
+#Set your OWN working directory 
+setwd("C:/Users/rmjdszh/OneDrive - University College London/Iris_repo")
+
+```
+
+## Task 1: Read the csv
+```{r iris1, echo=FALSE}
+
+#Iris is available in R library 'datasets'
+iris <- iris
+
+print(iris)
+
+```
