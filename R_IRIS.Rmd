@@ -37,9 +37,9 @@ write.csv(iris, "iris.csv")
 
 ```
 
-## Task 3: Filter 
+## Task 4: Fix a bug 
 
-```{r iris3}
+```{r iris4}
 
 # Filter rows where Species is "setosa"
 
@@ -50,7 +50,7 @@ write.table(
   file = "setosa_data.csv",
   sep = ",",
   row.names = FALSE,
-  col.names = FALSE,
+  col.names = TRUE,
   quote = FALSE
 )
 ```
