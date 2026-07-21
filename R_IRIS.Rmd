@@ -36,3 +36,21 @@ write.csv(iris, "iris.csv")
 
 
 ```
+
+## Task 3: Filter 
+
+```{r iris3}
+
+# Filter rows where Species is "setosa"
+
+setosa_data <- subset(iris, Species == "setosa")
+
+write.table(
+  setosa_data,
+  file = "setosa_data.csv",
+  sep = ",",
+  row.names = FALSE,
+  col.names = FALSE,
+  quote = FALSE
+)
+```
